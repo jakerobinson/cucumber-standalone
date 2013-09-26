@@ -1,4 +1,5 @@
 require 'webrat'
+require 'cucumber/api_steps'
 
 Webrat.configure do |config|
   config.mode = :mechanize

@@ -20,6 +20,8 @@ class CucumberStandalone < Thor::Group
       empty_directory 'support'
       template 'support/env.rb'
       template 'step_definitions/web_steps.rb'
+      template 'step_definitions/dns_steps.rb'
+      template 'step_definitions/ping_steps.rb'
     end
 
   end
